@@ -1,0 +1,25 @@
+
+
+<html>
+	<head>
+		<title>Install Let's Encrypt on Ubuntu 22</title>
+	</head>
+<body>
+	<center>	
+		<h1>Install Let's Encrypt on Ubuntu 22</h1>
+	</center>
+</body>
+</html>
+
+
+<VirtualHost *:80>
+	ServerAdmin admin@hvthang.xyz
+	ServerName hvthang.xyz
+	ServerAlias www.hvthang.xyz
+	DocumentRoot /var/www/hvthang.xyz
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+	
+	
+
